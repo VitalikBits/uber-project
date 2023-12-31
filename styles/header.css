@@ -33,8 +33,15 @@
    font-weight: bold;
    cursor: pointer;
 }
-.company:hover{
-	background-color: lightgray;
+/* Here are colors changes*/
+.company:hover,
+.security:hover,
+.help:hover,
+.UK-UA:hover,
+.service:hover,
+.join:hover,
+.check-up:hover{
+	background-color: rgb(55, 55, 55);
 }
 .security{
   font-family: Arial;
@@ -50,9 +57,7 @@
    border: none;
    cursor: pointer; 
 }
-.security:hover{
-	background-color: lightgray;
-}
+
 .help{
 	font-family: Arial;
   font-size: 13px;
@@ -67,9 +72,7 @@
    border: none;
    cursor: pointer; 
 }
-.help:hover{
-	background-color: lightgray;
-}
+
 .UK-UA{
 	font-size: 13px;
 	font-weight: bold;
@@ -82,9 +85,6 @@
    border: none;
    cursor: pointer;
 
-}
-.UK-UA:hover{
-	background-color: lightgray;
 }
 .youtube{
 	height: 20px;
@@ -105,9 +105,7 @@
    border: none;
    cursor: pointer;
 }
-.service:hover{
-	background-color: lightgray;
-}
+
 .join{
 	margin-left: 15px;
   font-size: 13px;
@@ -120,9 +118,6 @@
    border-radius: 20px;
    border: none;
    cursor: pointer;
-}
-.join:hover{
-	background-color: lightgray;
 }
 .check-up{
 	margin-left: 5px;
