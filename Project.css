@@ -1,0 +1,68 @@
+body{
+	background-color: black;
+	padding-bottom: 1000px;
+}
+
+.left-title{
+	font-family: Arial;
+	font-size: 50px;
+	font-weight: bold;
+	color: white;
+	width: 400px;
+	margin-top: 200px;
+	margin-left: 100px;
+	line-height: 60px;
+	margin-bottom: 20px;
+}
+.middle-title{
+	width: 400px;
+	font-family: Arial;
+	font-size: 15px;
+	color: white;
+	margin-left: 100px;
+	margin-bottom: 20px;
+}
+
+.foto-button{
+	height: 30px;
+	width: 30px;
+	position: absolute;
+}
+.input-2{
+	width: 300px;
+	margin-left: 100px;
+	padding: 15px 26px;
+	background-color: lightgray;
+	border-radius: 10px;
+    border: none;
+    margin-bottom: 15px;
+    margin-bottom: 30px;
+}
+.link{
+	color: black;
+	text-decoration: none;
+	font-weight: bold;
+}
+.button-title{
+	padding: 15px 22px;
+	border: none;
+	font-size: 15px;
+	border-radius: 7px;
+	margin-left: 100px;
+}
+.main{
+}
+.input-1{
+	width: 300px;
+	margin-left: 100px;
+	padding: 15px 26px;
+	background-color: lightgray;
+	border-radius: 10px;
+    border: none;
+    margin-bottom: 15px;
+}
+.photos{
+	position: absolute;
+	right: 100px;
+	top: 120px;
+}
