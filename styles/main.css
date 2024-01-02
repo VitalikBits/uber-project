@@ -1,8 +1,16 @@
 body{
 	background-color: black;
-	padding-bottom: 1000px;
+	padding-bottom: 1850px;
 	padding-left: 60px;
 	padding-right: 50px;
+	background: linear-gradient(
+	black 0%,
+	black 33%,
+	white 33%,
+	white 66%,
+	black 66%,
+	black 100%	
+	);
 }
 
 .left-title{
