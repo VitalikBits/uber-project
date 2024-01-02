@@ -1,6 +1,7 @@
 .head{
 	display: flex;
 	justify-content: space-between;
+  margin-top: 10px;
 }
 .left-section{
 	display: flex;
@@ -16,11 +17,13 @@
 	font-family: Arial;
 	font-size: 20px;
 	color: white;
-	margin-left: 50px;
+	margin-left: 60px;
 	margin-right: 15px;
 	cursor: pointer;
 }
 .company{
+  display: flex;
+  align-items: center;
 	margin-top: 7px;
    font-family: Arial;
    font-size: 13px;
@@ -36,11 +39,16 @@
 .company:hover{
 	background-color: lightgray;
 }
+.arrow{
+  height: 12px;
+  width: 12px;
+  margin-left: 10px;
+}
 .security{
   font-family: Arial;
   font-size: 13px;
   margin-top: 10px;
-  margin-left: 30px;
+  margin-left: 10px;
   font-weight: bold;
   transition: background-color 0.60s;
    padding: 8px 16px;
@@ -71,6 +79,8 @@
 	background-color: lightgray;
 }
 .UK-UA{
+  display: flex;
+  align-items: center;
 	font-size: 13px;
 	font-weight: bold;
 	margin-top: 7px;
@@ -85,6 +95,12 @@
 }
 .UK-UA:hover{
 	background-color: lightgray;
+}
+.sphere{
+  height: 20px;
+  width: 20px;
+  border-radius: 50px;
+  margin-right: 3px;
 }
 .youtube{
 	height: 20px;
