@@ -1,7 +1,7 @@
 .head{
 	display: flex;
 	justify-content: space-between;
-  margin-top: 10px;
+  margin-top: 5px;
 }
 .left-section{
 	display: flex;
@@ -17,8 +17,8 @@
 	font-family: Arial;
 	font-size: 20px;
 	color: white;
-	margin-left: 60px;
-	margin-right: 15px;
+	margin-left: -5px;
+	margin-right: 22px;
 	cursor: pointer;
 }
 .company{
@@ -87,6 +87,7 @@
 	font-size: 13px;
 	font-weight: bold;
 	margin-top: 7px;
+  margin-right: 5px;
 	transition: background-color 0.60s;
    padding: 8px 16px;
    background-color: black;
@@ -119,7 +120,7 @@
 	font-weight: bold;
     margin-top: 7px;
 	transition: background-color 0.60s;
-   padding: 8px 16px;
+   padding: 8px 10px;
    background-color: black;
    color: white;
    border-radius: 20px;
@@ -141,12 +142,13 @@
    cursor: pointer;
 }
 .check-up{
+  margin-right: -35px;
 	margin-left: 5px;
 	font-size: 13px;
 	font-weight: bold;
     margin-top: 7px;
 	transition: background-color 0.60s;
-   padding: 10px 15px;
+   padding: 12px 13px;
    background-color: white;
    color: black;
    border-radius: 20px;
