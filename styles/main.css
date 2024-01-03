@@ -186,7 +186,7 @@ body{
 	background-color: rgb(55, 55, 55);
 }
 .hard-div{
-	display: flex;
+      display: flex;
 }
 .hard-button{
    margin-top: 45px;
