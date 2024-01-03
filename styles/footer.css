@@ -1,0 +1,186 @@
+
+
+.main-word {
+  font-weight: bold;
+  font-size: 18px;
+  margin-bottom: 2px;
+}
+
+.footer-container {
+  display: grid;
+  grid-template-areas: 
+    'item-1 item-1 item-1 item-1'
+    'item-2 item-2 item-2 item-2'
+    'item-3 item-4 item-5 item-6'
+    'item-7 item-7 item-7 item-7'
+    'item-8 item-8 item-8 item-8'
+    'item-9 item-9 item-9 item-9'
+    'item-10 item-10 item-10 item-10';
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 60px 100px 325px 72px 55px 56px;
+
+  line-height: 35px;
+  padding: 64px;
+  color: white;
+  position: absolute;
+  bottom: 0px;
+  column-gap: 80px;
+}
+
+.item-1 {
+  grid-area: item-1;
+  align-self: start;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.item-2 {
+  grid-area: item-2;
+  align-self: start;
+  cursor: pointer;
+}
+
+.to-certificate-centre {
+  position: relative;
+}
+
+.to-certificate-centre:hover:before{
+  content: "";
+  position: absolute;
+  bottom: -35px;
+  height: 1px;
+  width: 20%;
+  background-color: white ;
+}
+
+.item-3 {
+  grid-area: item-3;
+}
+
+.item-4 {
+  grid-area: item-4;
+}
+
+.item-5 {
+  grid-area: item-5;
+}
+
+.item-6 {
+  grid-area: item-6;
+}
+
+.item-3,
+.item-4,
+.item-5,
+.item-6 {
+  font-size: 14px;
+}
+
+.left-section-footer {
+  display: flex;
+}
+
+.right-section-footer {
+  display: flex;
+}
+
+.globe {
+  height: 20px;
+  width: 20px;
+  border-radius: 50px;
+  margin-right: 3px;
+}
+
+.footer-button-div {
+  height: 50px;
+  width: 50px;
+  border-radius: 10px;
+  transition: background-color 0.4s;
+}
+
+.item-7 {
+  grid-area: item-7;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.your-language-button,
+.your-city-button {
+  font-family: Arial;
+  font-size: 13px;
+  margin-right: 10px;
+  font-weight: bold;
+  transition: background-color 0.4s;
+   padding: 10px 16px;
+   background-color: black;
+   color: white;
+   border-radius: 8px;
+   border: none;
+   cursor: pointer;
+}
+
+.your-language-button:hover,
+.your-city-button:hover {
+  background-color: rgb(55, 55, 55);
+}
+
+.footer-button-div {
+  margin-right: 50px;
+}
+
+.footer-button-div:hover {
+  background-color: rgb(55,55,55); 
+}
+
+.item-8 {
+  grid-area: item-8;
+}
+
+.google-play-imagie,
+.app-store-imagie {
+  height: 125px;
+  width: 125px;
+  cursor: pointer;
+}
+
+.google-play-imagie {
+  margin-right: 10px;
+}
+
+.download-container {
+  padding-left: 16px;
+  display: flex;
+  align-items: center;
+}
+
+.item-10 {
+  grid-area: item-10;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 12px
+}
+
+.other-text-container{
+  display: flex;
+}
+.other-text-right,
+.other-text-left {
+  color: rgb(149, 149, 149);
+}
+.other-text-left {
+  margin-right: 30px;
+  line-height: 20px;
+  cursor: pointer;
+}
+
+.addtional-information,
+.other-text-left {
+  transition: color 0.1s;
+}
+
+.addtional-information:hover,
+.other-text-left:hover {
+  color: rgb(74, 74, 74);
+}
