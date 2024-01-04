@@ -23,8 +23,9 @@
   padding: 64px;
   color: white;
   position: absolute;
-  bottom: 0px;
+  bottom: 900px;
   column-gap: 80px;
+  margin-left: 50px;
 }
 
 .item-1 {

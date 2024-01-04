@@ -5,14 +5,15 @@ body{
 	padding-right: 50px;
 	background: linear-gradient(
 	black 0%,
-	black 33%,
-	white 33%,
-	white 66%,
-	black 66%,
+	black 19.5%,
+	white 19.5%,
+	white 58.7%,
+	black 58.7%,
 	black 100%	
 	);
 	font-family: Arial;
 	position: relative;
+	overflow-x: hidden;
 }
 
 .left-title{
@@ -34,19 +35,23 @@ body{
 	margin-left: 100px;
 	margin-bottom: 20px;
 }
+.input-div{
+	position: relative;
+	width: 400px;
+}
 
 .foto-button{
-	height: 25px;
-	width: 25px;
+	height: 36px;
+	width: 36px;
 	position: absolute;
-	right: 60px;
-	top: 20%;
+	right: -23%;
+	top: 10%;
+	cursor: pointer;
 }
 .input-2{
-	width: 300px;
+	width: 350px;
 	margin-left: 100px;
 	padding: 15px 26px;
-	background-color: white;
 	border-radius: 10px;
     border: none;
     margin-bottom: 15px;
@@ -63,17 +68,16 @@ body{
 	font-size: 15px;
 	border-radius: 7px;
 	margin-left: 100px;
-	cursor: pointer;
 }
 .input-1{
-	width: 300px;
+	width: 350px;
 	margin-left: 100px;
-	background-color: white;
 	padding: 15px 26px;
 	border-radius: 10px;
     border: none;
     margin-bottom: 15px;
 }
+
 
 .container{
 	display: grid;
@@ -86,11 +90,222 @@ body{
 	padding-top: 70px;
 	padding-left: 10px;
 }
+.user-log-window{
+	margin-bottom: 270px;
+	margin-left: -70px;
+}
+.container-2{
+	display: grid;
+	grid-template-columns: 50% 50%;
+}
+.photos-2{
 
-.user-log-window {
-	width: 500px;
+	height: 550px;
+	width: 550px;
+	margin-left: 30px;
+}
+.right-title-2{
+	margin-left: 115px;
+	margin-top: 40px;
+}
+.right-inform{
+	width: 510px;
+	font-weight: bold;
+	font-size: 57px;
+	line-height: 65px;
+	margin-bottom: 20px;
+}
+.middle-inform{
+	width: 455px;
+	font-size: 17px;
+	line-height: 25px;
+}
+.button-2{
+	background-color: black;
+	color: white;
+	margin-top: 30px;
+	padding: 14px 23px;
+	border-radius: 10px;
+	font-weight: bold;
+	font-size: 16px;
+	border: none;
+	transition: background-color 0.60s;
+	margin-bottom: 20px;
+	cursor: pointer;
 }
 
-.first-input {
+.end-inform{
+	font-size: 17px;
 	position: relative;
+    cursor: pointer;
 }
+.end-inform:before{
+  content: "";
+  position: absolute;
+  bottom: -2px;
+  height: 1px;
+  width: 0;
+  background-color: black;
+  border-radius: 50px;
+  transition: width 0.60s ease;
+}
+.end-inform:hover:before{
+	background-color: black;
+	width: 252px;
+}
+.container-3{
+	margin-top: 250px;
+	margin-left: 30px;
+}
+
+.left-inform{
+	width: 450px;
+	font-size: 55px;
+	color: rgb(55, 55, 55);
+	font-weight: bold;
+}
+.middle-inform-2{
+	width: 450px;
+	font-size: 17px;
+	margin-top: 20px;
+    line-height: 25px;
+}
+.button-3{
+	background-color: black;
+	color: white;
+	margin-top: 30px;
+	padding: 14px 23px;
+	border-radius: 10px;
+	font-weight: bold;
+	font-size: 16px;
+	border: none;
+	transition: background 0.60s;
+    margin-bottom: 300px;
+	cursor: pointer;
+}
+
+.button-2:hover,
+.button-3:hover{
+	background-color: rgb(55, 55, 55);
+}
+.hard-div{
+      display: flex;
+}
+.hard-button{
+   margin-top: 45px;
+   margin-left: 20px;
+   font-size: 17px;
+   position: relative;
+   cursor: pointer;
+   margin-bottom: 0;
+
+}
+.hard-button:before{
+	content: "";
+	position: absolute;
+	top: 20px;
+	bottom: -2px;
+	height: 1px;
+	width: 0;
+	color: gray;
+	border-radius: 50px;
+	transition: width 0.60s ease;
+}
+.hard-button:hover:before{
+	background-color: black;
+	width: 200px;
+}
+.photo-div-3{
+	position: absolute;
+	right: 100px;
+	top: 1610px;
+}
+.photos-3{
+	height: 550px;
+	width: 550px;
+}
+        .header{
+
+        	margin-top: -120px;
+        	margin-left: -70px;
+        }
+
+        .main{
+			height: 410px;
+			width: 1500px;
+			background-color: rgb(0, 0, 0, 0.10);
+			position: relative;
+		}
+		.last-div-2{
+			cursor: pointer;
+			background-color: white;
+			width: 555px;
+			height: 195px;
+			position: absolute;
+			top: 38%;
+			left: 7%;
+			display: flex;
+		}
+		.name{
+			font-size: 35px;
+			font-weight: bold;
+			position: absolute;
+			top: 16%;
+			left: 7%;
+		}
+		.quar-bio{
+			cursor: pointer;
+			line-height: 29px;
+			position: absolute;
+			top: 32%;
+			left: 34%;
+			font-size: 26px;
+			font-weight: bold;
+			width: 300px;
+			
+		}
+		.quar-bio-3{
+			cursor: pointer;
+			line-height: 29px;
+			position: absolute;
+			top: 25%;
+			left: 35%;
+			font-size: 23px;
+			font-weight: bold;
+			width: 270px;
+			
+		}
+		
+		.photo-quar{
+			cursor: pointer;
+			margin-top: 20px;
+			margin-left: 20px;
+		}
+		.photo-2{
+			cursor: pointer;
+			position: absolute;
+			top: 40%;
+			right: 3%;
+			height: 30px;
+			width: 30px;
+		}
+		.quar-bio-2{
+			cursor: pointer;
+			font-size: 17px;
+			position: absolute;
+			bottom: 42%;
+			left: 34%;
+
+		}
+		.quar-bio-4{
+			cursor: pointer;
+			position: absolute;
+			bottom: 35%;
+			left: 35%;
+
+		}
+		.head-2{
+            position: relative;
+            top: 38%;
+            left: 39%;
+		}
