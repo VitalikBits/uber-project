@@ -197,7 +197,7 @@ body{
    font-size: 17px;
    position: relative;
    cursor: pointer;
-   margin-bottom: 0;
+
 
 }
 .hard-button:before{
@@ -207,9 +207,8 @@ body{
 	bottom: -2px;
 	height: 1px;
 	width: 0;
-	color: gray;
 	border-radius: 50px;
-	transition: width 0.60s ease;
+    transition: width 0.60s ease;
 }
 .hard-button:hover:before{
 	background-color: black;
@@ -239,7 +238,7 @@ body{
 		.last-div-2{
 			cursor: pointer;
 			background-color: white;
-			width: 555px;
+			width: 565px;
 			height: 195px;
 			position: absolute;
 			top: 38%;
@@ -261,7 +260,7 @@ body{
 			left: 34%;
 			font-size: 26px;
 			font-weight: bold;
-			width: 300px;
+			width: 330px;
 			
 		}
 		.quar-bio-3{
@@ -285,7 +284,7 @@ body{
 			cursor: pointer;
 			position: absolute;
 			top: 40%;
-			right: 3%;
+			right: 2%;
 			height: 30px;
 			width: 30px;
 		}
@@ -307,5 +306,5 @@ body{
 		.head-2{
             position: relative;
             top: 38%;
-            left: 39%;
+            left: 39.3%;
 		}
